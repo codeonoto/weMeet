@@ -11,7 +11,7 @@ const Navbar = () => {
         href='/'
         className='flex items-center gap-1'>
         <Image
-          src='/icons/logo.svg'
+          src='/icons/logo1.png'
           alt='weMeet logo'
           width={32}
           height={32}

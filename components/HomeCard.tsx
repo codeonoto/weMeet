@@ -20,7 +20,7 @@ const HomeCard = ({
   return (
     <div
       className={cn(
-        'px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer',
+        'px-4 py-6 flex flex-col justify-between w-full xl:max-w-[420px] min-h-[260px] rounded-[14px] cursor-pointer',
         className
       )}
       onClick={handleClick}>
