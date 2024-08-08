@@ -20,7 +20,7 @@ const config = {
     extend: {
       colors: {
         dark: {
-          1: '#212121',
+          1: '#0C0C0C',
           2: '#323232',
           3: '#252A41',
           4: '#1E2757',
@@ -43,6 +43,7 @@ const config = {
           1: '#F3CA52',
         },
       },
+
       keyframes: {
         'accordion-down': {
           from: { height: '0' },

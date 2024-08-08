@@ -33,7 +33,12 @@ export default function RootLayout({
             colorInputText: '#fff',
           },
         }}>
-        <body className={`${inter.className} bg-dark-2`}>
+        <body
+          className={`${inter.className} bg-dark-2
+          `}
+          style={{
+            background: 'linear-gradient(to top left, #152331, #000000)',
+          }}>
           {children}
           <Toaster />
         </body>
