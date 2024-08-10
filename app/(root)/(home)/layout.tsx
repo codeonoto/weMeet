@@ -1,6 +1,15 @@
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
+
+export const metadata: Metadata = {
+  title: 'WeMeet | The Best Video Conferencing WebApp',
+  description: 'WeMeet is the best video conferencing web for remote teams',
+  icons: {
+    icon: '/icons/logo1.png',
+  },
+};
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
