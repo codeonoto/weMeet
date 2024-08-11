@@ -86,6 +86,14 @@
   color: white;
 }
 
+.cl-button {
+  color: white
+}
+
+.cl-badge {
+  color: #cccccc
+}
+
 /* =============================== */
 
 @layer utilities {
