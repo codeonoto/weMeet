@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import { Analytics } from '@vercel/analytics/react';
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
 
@@ -21,6 +22,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
           <div className='w-full '>{children}</div>
         </section>
       </div>
+      <Analytics />
     </main>
   );
 };

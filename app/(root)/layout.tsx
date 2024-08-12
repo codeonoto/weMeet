@@ -1,4 +1,5 @@
 import StreamVideoProvider from '@/providers/StreamClientProvider';
+import { Analytics } from '@vercel/analytics/react';
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react';
 
@@ -14,6 +15,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <main>
       <StreamVideoProvider>{children}</StreamVideoProvider>
+      <Analytics />
     </main>
   );
 };
